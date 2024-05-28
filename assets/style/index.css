@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+
+ /* Body styles */
+body {
+    height: 100vh;
+    background-color: #191720;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Main content styles */
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styles */
+.container {
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+    background: #191720;
+    width: 100%;
+    height: 100%;
+}
+
+/* Title styles */
+.title {
+    margin-top: 3%;
+    font-size: 53px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Subtitle styles */
+.title-2 {
+    font-size: 21px;
+    margin-bottom: 3%;
+    font-weight: 600;
+    color: #ffffff66;
+}
+
+/* Form styles */
+form {
+    position: relative;
+    right: -19%;
+    width: 53rem;
+    height: 6rem;
+}
+
+/* Input styles */
+.input {
+    width: 86%;
+    height: 80%;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 0px 0px 0px 16px;
+    background-color: rgb(42, 42, 43);
+}
+
+/* Button styles */
+.button {
+    width: 27%;
+    height: 80%;
+    left: 470px;
+    top: 0px;
+    font-size: 19px;
+    color: #fff;
+    border-radius: 9px;
+    background-color: rgb(49, 22, 132);
+    position: absolute;
+}
+
+/* Hover styles for buttons */
+.button:hover {
+    background-color: #6735ffb3;
+}
+
+/* Result list styles */
+.result {
+    width: 96%;
+    list-style: none;
+    margin-top: 2%;
+    height: auto;
+    color: #fff;
+    font-size: large;
+}
+
+/* List styles for result */
+.result ul {
+    list-style: none;
+}
+
+/* List item styles for result */
+.result li {
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+/* Hover styles for list items */
+.result li:hover:not(.not-found) {
+    background-color:  rgb(97, 44, 255);
+}
+
+/* Movie display styles */
+.movie {
+    display: flex;
+    border-radius: 5px;
+    height: 327px;
+}
+
+/* Movie display section styles */
+.movieDisplay {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 357px;
+    color: #fff;
+    margin-top: 3%;
+    width: 89rem;
+}
+
+/* Movie container styles */
+.movieContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Movie poster styles */
+.moviePoster {
+    width: 257px;
+    border-radius: 5px;
+    height: 327px;
+    margin-right: 2.5%;
+}
+
+/* Movie details styles */
+.movieDetails {
+    flex-grow: 2;
+    margin-left: 20px;
+}
+
+/* Movie title styles */
+.movie-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: -12px;
+    cursor: pointer;
+}
+
+/* Movie year and duration styles */
+.movieYear,
+.movieDuration {
+    color: #f0f0f066;
+    margin-top: 7px;
+}
+
+/* Duration styles */
+.duration {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+    margin-left: -8px;
+}
+
+/* Separator styles */
+.duration::after {
+    content: "|";
+    margin-left: -75px;
+    color: #f0f0f066;
+}
+
+/* Movie duration styles */
+.duration .movieDuration {
+    margin-left: 10px; 
+}
+
+/* Movie description styles */
+.movie-description {
+    font-size: 19px;
+    padding: 26px 0;
+}
+
+/* Movie genre styles */
+.movie-genre .genre {
+    background-color: rgb(36, 37, 45);
+    border-radius: 17px;
+    padding: 6px 23px 9px;
+    border-radius: 23px;
+    cursor: default;
+    margin-left: 12px;
+}
+
+
