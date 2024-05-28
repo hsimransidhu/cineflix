@@ -13,4 +13,4 @@ Cineflix is a movie search web application where users can search for their favo
 - JavaScript
 
 You can visit the deployed project [here](https://hsimransidhu.github.io/cineflix/).
-![Screenshot of Cineflix]("C:\Users\simus\OneDrive\Software Developer\Pictures\Screenshots\Screenshot 2024-05-28 124315.png")
+ ("C:\Users\simus\OneDrive\Software Developer\Pictures\Screenshots\Screenshot 2024-05-28 124315.png")
