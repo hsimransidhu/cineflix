@@ -14,5 +14,4 @@ Cineflix is a movie search web application where users can search for their favo
 
 You can visit the deployed project [here](https://hsimransidhu.github.io/cineflix/).
 
-
- ("C:\Users\simus\OneDrive\Software Developer\REACT\MoviesApp\assets\img\Screenshot 2024-05-28 124315.png")
+ (https://github.com/hsimransidhu/cineflix/blob/main/assets/img/Screenshot%202024-05-28%20124315.png)
