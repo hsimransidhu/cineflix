@@ -11,3 +11,5 @@ Cineflix is a movie search web application where users can search for their favo
 - HTML
 - CSS
 - JavaScript
+
+You can visit the deployed project [here](https://hsimransidhu.github.io/cineflix/).
